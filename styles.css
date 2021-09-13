@@ -1,0 +1,403 @@
+/*GROUP PROJECT PART 1 CSS */
+#logo {
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin-left: 15%;
+}
+
+.top-header-bar {
+  background-color: #788CC4;
+  background-image: linear-gradient(#36d1dc, #5b86e5);
+  width: 100%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 5px;
+  border-bottom-left-radius: 310% 80%;
+  border-bottom-right-radius: 250% 80%;
+  font-size: 42px;
+  padding-left: 25px;
+  color: #363342;
+}
+
+.our-team {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #323039;
+  margin-top: 90px;
+  padding-top: 20px;
+}
+
+.team-name {
+  font-family: "Montserrat", sans-serif;
+  margin-right: 80px;
+}
+
+.slogan {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  margin-left: 30px;
+  padding-bottom: 20px;
+  margin-top: 2px;
+}
+
+.grouppage {
+  border: dotted #5b86e5 15px;
+  border-bottom: none;
+  width: 8%;
+  margin: 100px auto;
+  background-color: white;
+}
+
+.profilepic {
+  width: 190px;
+  height: 190px;
+}
+
+.person {
+  display: inline-block;
+}
+
+.name {
+  text-align: center;
+  font-family: "Merriwether";
+}
+
+.past-projects {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 130px;
+  color: #323039;
+}
+
+.projectpic {
+  width: 370px;
+  height: 300px;
+  margin-left: 115px;
+  margin-top: 15px;
+}
+
+.projectname {
+  display: inline-block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+/* ROMA RESUME */
+.name {
+  text-align: left;
+  margin-top: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 32px;
+  margin-left: 10px;
+}
+
+.subtitle {
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: inherit;
+}
+
+.objective {
+  margin-top: 50px;
+  margin-left: inherit;
+}
+
+.date {
+  color: rgb(143, 143, 143);
+}
+
+hr {
+  background-color: rgb(202, 197, 197);
+  height: 0;
+  border-top: 1px;
+}
+
+.heading {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 50px;
+  margin-left: inherit;
+}
+
+.text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: inherit;
+}
+
+img {
+  height: 170px;
+  width: 170px;
+  float: right;
+  margin-right: 100px;
+  padding-bottom: 30px;
+}
+
+
+/*SEAN RESUME CODE */
+.sean_container {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+.body_sean {
+  background-color: #111111;
+}
+
+.h1_sean {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: deeppink;
+  font-family: 'Anton', sans-serif;
+}
+
+#contactInfo {
+  border-bottom: deeppink solid 1px;
+  padding: 4px 0 4px 0;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  font-family: 'Anton', sans-serif;
+}
+
+#contactInfo li {
+  display: inline;
+  list-style: none;
+  margin: 0 0.25em 0 0.25em;
+  color: deeppink;
+}
+
+.customRow {
+  margin-top: 16px;
+  display: flex;
+}
+
+.customRow ul {
+  margin-top: 0;
+}
+
+.customRow h2 {
+  margin-right: 16px;
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: 6px;
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 8px;
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 8px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.caption {
+  margin-top: 8px;
+  display: block;
+}
+
+.img-small {
+  height: 150px;
+}
+
+/*modified img in quiz-> readme.html*/
+.img-medium {
+  height: 550px;
+  margin-right: 36px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 55%;
+  background-color: red;
+  color: deeppink;
+  text-align: center;
+}
+
+/*Navigation bar and footer css code*/
+.bottombar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 10px;
+}
+
+.bottombar-2 {
+  margin-top: 10px;
+}
+
+.bottom-inner {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Anton', sans-serif;
+}
+
+/*Change the style of word in resume.html*/
+.sean_h2 {
+  color: deeppink;
+  font-family: 'Libre Baskerville', serif;
+}
+
+b {
+  color: deeppink;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+/* Tiffany's resume css */
+
+/* formats elements with t_body id */
+#t_body {
+  font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+  width: 1000px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px;
+  background-image: url(images/sky.jpeg);
+  background-position: top;
+  background-size: 200%;
+}
+
+/* formats elements with t_h1 id */
+#t_h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-variant: small-caps;
+}
+
+/* formats elements with t_h2 class */
+.t_h2 {
+  width: 150px;
+  margin: 20px 0 0 0;
+  padding: 0;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+/* formats elements with t_h3 id */
+#t_h3 {
+  font-size: 0.8em;
+}
+
+/* styles content inside t_contactInfo tag */
+#t_contactInfo {
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 4px 0 4px 0;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* formats li tags inside t_contactInfo id */
+#t_contactInfo li {
+  display: inline;
+  list-style: none;
+  margin: 0 0.25em 0 0.25em;
+}
+
+/* this lists without bullet points in education id */
+.t_education li {
+  list-style: none;
+  padding: 0;
+}
+
+/* element positions profile pic to right */
+#t_image {
+  display: inline-block;
+  width: auto;
+  margin-left: 410px;
+  border-radius: 3%;
+}
+
+/* element keeps any tag's contents in-line */
+#inline {
+  display: inline;
+}
+
+.t_li {}
+
+/* end of Tiffany's resume css */
+
+/*RAPH RESUME CODE */
+#r_body {
+  font-family: "Times New Roman", Helvetica, sans-serif;
+  background-color: lightgreen;
+  color: blueviolet;
+  text-align: left;
+}
+
+#r_h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-variant: small-caps;
+}
+
+.r_h2 {
+  text-align: left;
+  clear: right;
+  margin: 20px;
+  padding: 0.5em;
+  font-size: 1.5em;
+  text-decoration: underline;
+  letter-spacing: 0.4em;
+}
+
+#r_picture {
+  text-align: center;
+}
+
+#r_vcard {
+  white-space: nowrap;
+  padding: 4px 0 4px 0;
+  margin: 0;
+  text-align: center;
+}
+
+#r_contactInfo {
+  border-top: 4px solid brown;
+  border-bottom: 4px solid brown;
+  padding: 4px 0 4px 0;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#r_contactInfo li {
+  display: inline;
+  list-style: none;
+  margin: 0 0.25em 0 0.25em;
+}
